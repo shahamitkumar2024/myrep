@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 crewai = {extras = ["tools"], version = "*"}
+uv = "*"
 
 [dev-packages]
 

@@ -17,9 +17,9 @@ def run():
     """
     
     job_application_inputs = {
-    'job_posting_url': 'https://jobs.lever.co/AIFund/6c82e23e-d954-4dd8-a734-c0c2c5ee00f1?lever-origin=applied&lever-source%5B%5D=AI+Fund',
-    'github_url': 'https://github.com/joaomdmoura',
-    'personal_writeup': """Noah is an accomplished Software
+    job_posting_url: 'https://jobs.lever.co/AIFund/6c82e23e-d954-4dd8-a734-c0c2c5ee00f1?lever-origin=applied&lever-source%5B%5D=AI+Fund',
+    github_url: 'https://github.com/joaomdmoura',
+    personal_writeup: """Noah is an accomplished Software
     Engineering Leader with 18 years of experience, specializing in
     managing remote and in-office teams, and expert in multiple
     programming languages and frameworks. He holds an MBA and a strong
@@ -29,6 +29,7 @@ def run():
     roles that require a strategic and innovative approach."""
     }
     ResumeAgent().crew().kickoff(inputs=job_application_inputs)
+
 
 
 def train():
